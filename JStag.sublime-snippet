@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+<${1:div}> 
+	${2}
+</${1:div}>
+]]></content>
+    <!-- Tab trigger to activate the snippet -->
+    <tabTrigger>tag</tabTrigger>
+    <!-- Scope the tab trigger will be active in -->
+    <scope>text.html, source.jsx, source.js, source.tsx, source.tsx</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Wrap HTML tags</description>
+</snippet>

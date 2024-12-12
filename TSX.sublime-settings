@@ -1,0 +1,7 @@
+// These settings override both User and Default settings for the TSX syntax
+{
+	"tab_size": 2,
+	"wrap_width": 110,
+	"draw_white_space": ["all_tabs"],
+	"indent_guide_options": ["draw_normal"],
+}

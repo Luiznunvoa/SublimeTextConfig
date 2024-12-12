@@ -1,0 +1,123 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+	"variables":
+	{
+        "pink": "color(rgb(200, 140, 220))",   
+        "pink2": "hsl(299, 78%, 35%)",
+        "pink3": "color(rgb(226, 200, 236))",
+        "brown": "color(rgb(235, 191, 140))",
+        "grey": "color(rgb(128, 128, 128))",
+        "yellow": "color(rgb(255, 200, 110))",  
+        "orange4": "color(rgb(248, 129, 6))",
+        "orange5": "color(rgb(248, 129, 6))",
+        "blue5": "color(rgb(106, 145, 255))",
+	},
+	"globals":
+	{
+		"caret": "var(pink2)",
+		"selection": "var(pink2)",
+        "misspelling": "var(green)",
+	},
+	"rules":
+	[
+        // General
+        {
+            "name": "Punctuation",
+            "scope": "punctuation.definition, ",
+            "foreground": "var(white3)"
+        },
+        {
+            "name": "Comment",
+            "scope": "comment, punctuation.definition.comment",
+            "foreground": "var(grey)"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "var(orange4)"
+        },
+        {
+            "name": "Parameter",
+            "scope": "meta.semantic-token.parameter",
+            "foreground": "var(orange)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Enum",
+            "scope": "meta.semantic-token.enummember",
+            "foreground": "var(brown)"
+        },
+        {
+            "name": "Classes and Types",
+            "scope": "meta.semantic-token.class, meta.semantic-token.type, meta.semantic-token.enum",
+            "foreground": "var(yellow)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Macro",
+            "scope": "meta.semantic-token.macro",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Operator",
+            "scope": "meta.semantic-token.operator",
+            "foreground": "var(pink)"
+        },
+        // LSP
+        {
+            "scope": "markup.error.lsp",
+            "foreground": "var(red)",
+            "background": "var(red)"
+        },
+        // C/C++
+        {
+            "name": "C-Function",
+            "scope": "entity.name.function.c",
+            "foreground": "var(blue-vibrant)",
+            "font_style": "bold"
+        },
+        {
+            "name": "C-Macro",
+            "scope": "meta.preprocessor.macro.c, entity.name.constant.preprocessor.c, entity.name.function.preprocessor.c",
+            "foreground": "var(red)",
+        },
+        {
+            "name": "C-Operator",
+            "scope": "keyword.operator.sizeof.c, keyword.operator.c, keyword.operator.assignment.c, storage.modifier.c, meta.preprocessor.c.include, keyword.operator.ternary.c, keyword.operator.comparison.c, keyword.operator.arithmetic.c",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "C-Other",
+            "scope": "constant.other.placeholder.c",
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "C-Accessor",
+            "scope": "punctuation.accessor.c",
+            "foreground": "var(pink)",
+            "font_style": "bold"
+        },
+        // Javascript
+        {
+            "name": "JS-Declaration",
+            "scope": "meta.semantic-token.property.declaration",
+            "foreground": "var(pink3)"
+        },
+        {
+            "name": "JS-Operator",
+            "scope": "keyword.operator.type.js, keyword.operator.comparison.js, keyword.operator.logical.js, keyword.operator.ternary.js, keyword.operator.spread.js, keyword.operator.arithmetic.js", 
+            "foreground": "var(pink)"
+        },
+        {
+            "name": "Namespace",
+            "scope": "meta.semantic-token.namespace",
+            "foreground": "var(yellow)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Js-Function_Declaration",
+            "scope": "meta.semantic-token.member",
+            "foreground": "var(blue-vibrant)",
+        }
+	]
+}

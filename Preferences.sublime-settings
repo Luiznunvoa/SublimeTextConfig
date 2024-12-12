@@ -1,0 +1,45 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+	"font_size": 8,
+	"ui_sacle": 1.0,
+	"highlight_line": true,
+	"block_caret": true,
+	"highlight_gutter": true,
+	"tree_animation_enabled": false,
+	"ignored_words": ["gcc", "mingw32", "w64", "Wextra", "exe", "dic", "src", "ui", "Luiz", "Moraes", "http", "www"],
+	"always_show_minimap_viewport": true,
+	"highlight_modified_tabs": true,
+	"dictionary": "Packages/Language - English/en_US.dic",
+	"caret_style": "solid",
+	"file_tab_style": "square",
+	"hardware_acceleration": "opengl",
+	"show_rel_path": true,
+	"allow_git_home_dir": true,
+
+	"bold_folder_labels": true,
+
+	"show_git_status_in_status_bar": true,
+	"show_line_column": "compact",
+	"show_spelling_errors": false,
+	"show_sidebar_button": true,
+
+	"remember_workspace": false,
+	"auto_hide_menu": false,
+	"auto_complete_use_history": true,
+
+	"word_wrap": "true",
+	"wrap_width": 120,
+
+	"theme": "auto",
+	"indent_guide_options": ["draw_active"],
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"color_scheme": "Mariana.sublime-color-scheme",
+	"dark_color_scheme": "Mariana.sublime-color-scheme",
+	"light_color_scheme": "Breakers.sublime-color-scheme",
+	"index_files": true,
+	"font_face": "Consolas",
+}

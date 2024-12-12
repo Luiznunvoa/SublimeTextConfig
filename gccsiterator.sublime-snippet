@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+for (int ${1:value} = 0; ${1:value} < ${2:value}; ${1:value}++)
+{
+    ${3}
+}
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>itr</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.c</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>An iterator</description>
+</snippet>

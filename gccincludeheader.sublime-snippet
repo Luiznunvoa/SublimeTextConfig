@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+#include "${TM_FILENAME/(\w+)\.c/\1/}.h"
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>getheader</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.c</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Include correspondent header file</description>
+</snippet>

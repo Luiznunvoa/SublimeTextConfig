@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+:construction_worker:
+]]></content>
+    <!-- Tab trigger to activate the snippet -->
+    <tabTrigger>emoji_work</tabTrigger>
+    <!-- Scope the tab trigger will be active in -->
+    <!-- Optional: Description to show in the menu -->
+    <description>Worker Emoji</description>
+</snippet>

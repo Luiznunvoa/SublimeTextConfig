@@ -1,0 +1,28 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Auto Fold",
+		"Babel",
+		"Debugger",
+		"Emoji",
+		"LSP",
+		"LSP-clangd",
+		"LSP-copilot",
+		"LSP-cspell",
+		"LSP-css",
+		"LSP-eslint",
+		"LSP-html",
+		"LSP-json",
+		"LSP-tailwindcss",
+		"LSP-typescript",
+		"Package Control",
+		"Search in Project",
+		"Tailwind CSS",
+		"Terminus",
+	],
+}

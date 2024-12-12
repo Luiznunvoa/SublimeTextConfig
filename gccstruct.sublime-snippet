@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+typedef struct 
+{
+    ${2}
+} ${1:value};
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>storage</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.c</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>A struct with a typedef</description>
+</snippet>

@@ -1,0 +1,14 @@
+{
+	"common_flags" : [
+	    // some example includes
+	    "-I/usr/include",
+	    "-I$project_base_path/src",
+	    // this is needed to include the correct headers for clang
+	    "-I", "C:/SDL2-2.30.7/x86_64-w64-mingw32/include",
+	    // For simple projects, you can add a folder where your current file is
+	    "-I$file_path",
+  	],
+
+	 "show_errors": false
+	 ,
+}

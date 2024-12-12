@@ -1,0 +1,18 @@
+// Settings in here override those in "LSP-clangd/LSP-clangd.sublime-settings"
+{
+  "initializationOptions": {
+    "fallbackFlags": [
+      "-xc", // Força o tratamento como arquivos C
+      "-std=c11",
+      "-I", "C:/raylib-5.5_win64_mingw-w64/include",
+      "-L", "C:/raylib-5.5_win64_mingw-w64/lib",
+      "-I", "C:/SDL2-2.30.7/x86_64-w64-mingw32/include",
+      "-L", "C:/SDL2-2.30.7/x86_64-w64-mingw32/lib",
+      "-I", "C:/SDL2_ttf-2.22.0/x86_64-w64-mingw32/include",
+      "-L", "C:/SDL2_ttf-2.22.0/x86_64-w64-mingw32/lib",
+    ],
+    "clangd.compile-commands-dir": "${file_path}"
+  },
+  "binary": "auto"
+}
+

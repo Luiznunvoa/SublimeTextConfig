@@ -1,0 +1,24 @@
+// Settings in here override those in "LSP/LSP.sublime-settings"
+{
+    "show_view_status": false,
+    "show_diagnostics_in_view_status": false,
+  	"show_inlay_hints": false,
+  	"semantic_highlighting": true,
+
+    "show_code_actions": "bulb",
+    "hover_highlight_style": "background",
+    "show_code_lens": "phantom",
+
+  	"diagnostics_highlight_style": {
+    "error": "box",
+    "warning": "squiggly",
+    "info": "squiggly",
+    "hint": "underline"
+  },
+
+  "log_debug": true,
+
+  "lsp_code_actions_on_save": {
+    "source.fixAll": true,
+  },
+}
