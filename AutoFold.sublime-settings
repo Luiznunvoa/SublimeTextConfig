@@ -1,7 +1,8 @@
 {
   "attributes" : [ // attributes to auto-fold    "content",
     "ClassName",
-    "class"
+    "d",
+    "class",
   ],
 
   "tags": [ // tags auto-fold (open and close in the same line)
@@ -19,6 +20,7 @@
   "regexps": [ // regexps to auto-fold
     // Example: fold all css comments /* ... */
     // "(?<=/\\*)(.|\n)*?(?=\\*/)"
+   "\\[\\s*(\"(?:[^\"\\\\]|\\\\.)*\"|'(?:[^'\\\\]|\\\\.)*')(\\s*,\\s*(\"(?:[^\"\\\\]|\\\\.)*\"|'(?:[^'\\\\]|\\\\.)*'))*\\s*\\]"
   ],
 
   "extensions": [  // activate this plugin for file extensions:
